@@ -17,6 +17,9 @@ DDL‑VX   Contains Canon Model components but must be distributed as Non‑Cano
 DDL‑XD   Contains Non‑Canon Model components and Non‑Canon datasets.
 DDL‑XVD  Contains a mixture of V and D assets; all distribution must follow X.
 DDL‑DV   Canon Dataset + Canon Model (internal use only; no redistribution).
+DDL‑VD   Same as DV; ordering indicates emphasis only (model‑first vs dataset‑first).
+DDL‑DX   Canon‑origin, read‑only assets; callable/inference‑only, not modifiable.
+DDL‑XV   Non‑Canon distribution of a Canon‑lineage model; forms its own independent branch canon but cannot claim or inherit official Canon.
 
 ## Usage
 - Apply DDL‑D, DDL‑V, or DDL‑X only to files you own.
