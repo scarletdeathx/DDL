@@ -4,7 +4,7 @@ Copyright © [YEAR] The License Holder.
 
 1. Scope
 DDL‑Core governs all datasets, models, and outputs released under this license.
-DDL‑D, DDL‑M, and DDL‑X inherit and extend these terms.
+DDL‑D, DDL‑V, and DDL‑X inherit and extend these terms.
 
 2. Canon Protection
 Nothing in DDL‑Core grants any right to copy, modify, redistribute, train on,
@@ -18,10 +18,10 @@ subject to the inheritance and commercial rules in Sections 4 and 5.
 4. License Inheritance
 All outputs, finetunes, derivatives, and downstream works created from any
 DDL‑licensed model automatically inherit DDL‑Core and the applicable DDL
-variant (DDL‑M or DDL‑X). No derivative may remove or weaken DDL terms.
+variant (DDL‑V or DDL‑X). No derivative may remove or weaken DDL terms.
 
 5. Commercial Use
-Commercial use is permitted only for works created from DDL‑M or DDL‑X models.
+Commercial use is permitted only for works created from DDL‑V or DDL‑X models.
 No work derived from Canon datasets or Canon assets may be used commercially
 without explicit written permission from the License Holder.
 
