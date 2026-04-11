@@ -12,7 +12,7 @@ DDL-XD-1.2 is for an X-lineage dataset or dataset/model bundle.
 - SPDX-compatible identifier: `LicenseRef-DDL-XD-1.2`
 - Operative downstream license: `DDL-X-1.2`
 - License holder: `[LICENSE HOLDER]`
-- Hugging Face repository: `[HUGGING FACE REPO]`
+- Artifact repository: `[ARTIFACT REPOSITORY]`
 - Canon status: Non-Canon community material
 - Source artifact: `[SOURCE ARTIFACT]`
 - Provenance: `[PROVENANCE NOTE]`

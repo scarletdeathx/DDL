@@ -37,8 +37,8 @@ identifiers and profiles.
 Use [applying-ddl.md](applying-ddl.md) for file notices, model card snippets,
 dataset card snippets, and practical release guidance.
 
-For Hugging Face releases, use the ready-to-copy templates in
-[templates/huggingface](templates/huggingface/).
+For release repositories, use the ready-to-copy templates in
+[templates/profiles](templates/profiles/).
 
 Typical choices:
 

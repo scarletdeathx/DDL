@@ -11,7 +11,7 @@ DDL-D-1.2 is for protected source material and Canon Datasets.
 - DDL identifier: `DDL-D-1.2`
 - SPDX-compatible identifier: `LicenseRef-DDL-D-1.2`
 - License holder: `[LICENSE HOLDER]`
-- Hugging Face repository: `[HUGGING FACE REPO]`
+- Artifact repository: `[ARTIFACT REPOSITORY]`
 - Canon status: Canon Dataset / protected source material
 - Provenance: `[PROVENANCE NOTE]`
 

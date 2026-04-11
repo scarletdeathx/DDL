@@ -1,10 +1,10 @@
-# Hugging Face DDL Templates
+# DDL Profile Templates
 
-These templates are ready-to-copy starting points for Hugging Face model and
-dataset repositories.
+These templates are ready-to-use starting points for model, dataset, adapter,
+bundle, and hosted-artifact repositories.
 
-Use one template as the repository's `LICENSE.md`, then set the matching
-custom license metadata in the repository `README.md` YAML front matter.
+Use the matching `LICENSE-*.md` file as the release repository's `LICENSE` or
+`LICENSE.md`, then fill in the placeholder fields.
 
 ## Template Index
 
@@ -21,14 +21,13 @@ custom license metadata in the repository `README.md` YAML front matter.
 | `DDL-DX-1.2` | `LICENSE-DDL-DX-1.2.md` |
 | `DDL-XV-1.2` | `LICENSE-DDL-XV-1.2.md` |
 
-Use `README-yaml-examples.md` for Hugging Face card metadata examples.
-
 ## Fields To Fill
 
 - `[ARTIFACT NAME]`: the model, dataset, adapter, or bundle name.
 - `[LICENSE HOLDER]`: the person or entity granting the license.
 - `[YEAR]`: the copyright year.
-- `[HUGGING FACE REPO]`: the Hub repository identifier, such as `org/name`.
+- `[ARTIFACT REPOSITORY]`: the repository or distribution identifier, such as
+  a Git URL, content address, package coordinate, mirror URL, or project URL.
 - `[SOURCE ARTIFACT]`: the upstream model, dataset, or release lineage.
 - `[PROVENANCE NOTE]`: a short source/lineage statement.
 

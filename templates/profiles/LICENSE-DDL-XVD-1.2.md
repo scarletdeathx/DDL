@@ -13,7 +13,7 @@ public release.
 - SPDX-compatible identifier: `LicenseRef-DDL-XVD-1.2`
 - Operative public license: `DDL-X-1.2`
 - License holder: `[LICENSE HOLDER]`
-- Hugging Face repository: `[HUGGING FACE REPO]`
+- Artifact repository: `[ARTIFACT REPOSITORY]`
 - Canon status: Non-Canon public release unless explicitly elevated
 - Source artifact: `[SOURCE ARTIFACT]`
 - Provenance: `[PROVENANCE NOTE]`
