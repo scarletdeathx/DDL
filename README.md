@@ -1,61 +1,55 @@
-# DDL
-# deathOS Distributed License (DDL)
+# deathOS Distributed License (DDL) 1.2
 
-DDL is a modular licensing system designed for generative hyperfiction.
-It preserves Canon sovereignty while enabling a controlled, commercial
-Non‑Canon ecosystem for derivative models and creative works.
+DDL is a modular license specification for canon-aware generative works:
+protected source material, canon-origin models, and community model lineages.
 
-DDL consists of:
-- **DDL‑Core** — base rules
-- **DDL‑D** — Canon Dataset License
-- **DDL‑V** — Canon Model License
-- **DDL‑X** — Non‑Canon Model License
+This repository publishes the DDL 1.2 license family and its identifier
+registry. It is a draft framework and is not legal advice.
 
----
+## Operative Licenses
 
-## DDL‑Core (Base Rules)
-- Canon datasets and assets are proprietary and immutable.
-- Users own their outputs, but all derivatives inherit DDL.
-- Commercial use is allowed only for works derived from DDL‑V or DDL‑X models.
-- Only the License Holder may designate Canon.
-- No ownership or moral rights are transferred.
+DDL has three operative license families:
 
----
+| Identifier | Use for | Canon posture |
+| --- | --- | --- |
+| `DDL-D-1.2` | Protected source material and Canon Datasets | Closed, personal access only |
+| `DDL-V-1.2` | Canon-origin model releases | Derivatives are Non-Canon unless elevated |
+| `DDL-X-1.2` | Community releases and downstream lineage | Non-Canon, inheriting DDL-X |
 
-## DDL‑D (Canon Dataset License)
-For Canon datasets.
+Canonical texts:
 
-- Personal, non‑commercial viewing only.
-- No copying, modification, redistribution, training, or fine‑tuning.
-- No incorporation into any dataset, model, or project.
-- No commercial rights.
+- [DDL-Core-1.2](licenses/DDL-Core-1.2.md)
+- [DDL-D-1.2](licenses/DDL-D-1.2.md)
+- [DDL-V-1.2](licenses/DDL-V-1.2.md)
+- [DDL-X-1.2](licenses/DDL-X-1.2.md)
 
----
+## Profiles
 
-## DDL‑V (Canon Model License)
-For official Canon models.
+Profiles such as `DDL-VX-1.2` are registered release postures. They are not
+automatic letter algebra. Each profile expands to an operative DDL license and
+states how provenance, canon status, and inheritance should be read.
 
-- Finetuning allowed.
-- Commercial use of finetunes allowed.
-- Narrative references permitted.
-- No Canon Dataset content may be used, reproduced, or incorporated.
-- All derivatives must remain Non‑Canon.
-- Canon status requires explicit authorization.
+Use [identifiers.md](identifiers.md) as the normative registry for all DDL
+identifiers and profiles.
 
----
+## Applying DDL
 
-## DDL‑X (Non‑Canon Model License)
-For community finetunes and aftermarket models.
+Use [applying-ddl.md](applying-ddl.md) for file notices, model card snippets,
+dataset card snippets, and practical release guidance.
 
-- Free modification, distribution, and commercial use.
-- Must remain Non‑Canon.
-- Must inherit DDL‑X.
-- Narrative references allowed.
-- Canon claims require explicit authorization.
+Typical choices:
 
----
+- Use `DDL-D-1.2` for protected source datasets or canon source material that
+  can be personally viewed but not trained on or redistributed.
+- Use `DDL-V-1.2` for an official canon-origin model where commercial
+  fine-tunes are allowed but downstream work is Non-Canon.
+- Use `DDL-X-1.2` for community releases, downstream models, and datasets
+  derived from DDL-X models or outputs.
+- Use `DDL-VX-1.2` when a canon-origin release is intentionally gifted into
+  DDL-X community lineage.
 
-## Purpose
-DDL protects Canon while enabling a downstream, remix‑friendly ecosystem
-for generative hyperfiction, derivative model development, and community
-experimentation.
+## Repository License
+
+The repository prose and tooling are MIT-licensed unless a file states
+otherwise. The DDL license texts and registry are published license artifacts;
+see [NOTICE.md](NOTICE.md) for copying and attribution terms.
