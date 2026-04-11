@@ -4,6 +4,11 @@ Use this guide for notices, model cards, dataset cards, and release decisions.
 The license texts in `licenses/` and the registry in `identifiers.md` control
 if this guide conflicts with them.
 
+For Hugging Face repositories, start from the templates in
+`templates/huggingface/`. Use the matching `LICENSE-*.md` file as the repo's
+`LICENSE.md`, then add the matching YAML metadata from
+`templates/huggingface/README-yaml-examples.md` to the repo card.
+
 ## Which Identifier Should I Use?
 
 | Release posture | Identifier |
