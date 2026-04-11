@@ -12,7 +12,7 @@ DDL-VD-1.2 is the model-first editorial form of `DDL-DV-1.2`.
 - SPDX-compatible identifier: `LicenseRef-DDL-VD-1.2`
 - Operative restriction: internal protected bundle
 - License holder: `[LICENSE HOLDER]`
-- Artifact repository: `[ARTIFACT REPOSITORY]`
+- Repository: `[REPOSITORY]`
 - Canon status: Canon Model plus Canon Dataset bundle
 - Source artifact: `[SOURCE ARTIFACT]`
 - Provenance: `[PROVENANCE NOTE]`

@@ -12,7 +12,7 @@ DDL-XV-1.2 is for community branch lineage from a DDL-V or DDL-VX source.
 - SPDX-compatible identifier: `LicenseRef-DDL-XV-1.2`
 - Operative downstream license: `DDL-X-1.2`
 - License holder: `[LICENSE HOLDER]`
-- Artifact repository: `[ARTIFACT REPOSITORY]`
+- Repository: `[REPOSITORY]`
 - Canon status: Non-Canon community branch
 - Source artifact: `[SOURCE ARTIFACT]`
 - Provenance: `[PROVENANCE NOTE]`

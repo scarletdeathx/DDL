@@ -26,7 +26,7 @@ Use the matching `LICENSE-*.md` file as the release repository's `LICENSE` or
 - `[ARTIFACT NAME]`: the model, dataset, adapter, or bundle name.
 - `[LICENSE HOLDER]`: the person or entity granting the license.
 - `[YEAR]`: the copyright year.
-- `[ARTIFACT REPOSITORY]`: the repository or distribution identifier, such as
+- `[REPOSITORY]`: the repository or distribution identifier, such as
   a Git URL, content address, package coordinate, mirror URL, or project URL.
 - `[SOURCE ARTIFACT]`: the upstream model, dataset, or release lineage.
 - `[PROVENANCE NOTE]`: a short source/lineage statement.

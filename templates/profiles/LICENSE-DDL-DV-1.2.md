@@ -12,7 +12,7 @@ DDL-DV-1.2 is for an internal protected Canon Dataset plus Canon Model bundle.
 - SPDX-compatible identifier: `LicenseRef-DDL-DV-1.2`
 - Operative restriction: internal protected bundle
 - License holder: `[LICENSE HOLDER]`
-- Artifact repository: `[ARTIFACT REPOSITORY]`
+- Repository: `[REPOSITORY]`
 - Canon status: Canon Dataset plus Canon Model bundle
 - Source artifact: `[SOURCE ARTIFACT]`
 - Provenance: `[PROVENANCE NOTE]`

@@ -12,7 +12,7 @@ DDL-DX-1.2 is for a hosted callable or inference-only protected artifact.
 - SPDX-compatible identifier: `LicenseRef-DDL-DX-1.2`
 - Operative restriction: callable / inference-only access
 - License holder: `[LICENSE HOLDER]`
-- Artifact repository: `[ARTIFACT REPOSITORY]`
+- Repository: `[REPOSITORY]`
 - Canon status: protected source or canon-origin artifact
 - Source artifact: `[SOURCE ARTIFACT]`
 - Provenance: `[PROVENANCE NOTE]`

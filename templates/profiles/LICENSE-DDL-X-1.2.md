@@ -11,7 +11,7 @@ DDL-X-1.2 is for Non-Canon community releases and downstream lineage.
 - DDL identifier: `DDL-X-1.2`
 - SPDX-compatible identifier: `LicenseRef-DDL-X-1.2`
 - License holder: `[LICENSE HOLDER]`
-- Artifact repository: `[ARTIFACT REPOSITORY]`
+- Repository: `[REPOSITORY]`
 - Canon status: Non-Canon community material
 - Provenance: `[PROVENANCE NOTE]`
 

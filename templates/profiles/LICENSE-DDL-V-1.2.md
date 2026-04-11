@@ -11,7 +11,7 @@ DDL-V-1.2 is for canon-origin model releases.
 - DDL identifier: `DDL-V-1.2`
 - SPDX-compatible identifier: `LicenseRef-DDL-V-1.2`
 - License holder: `[LICENSE HOLDER]`
-- Artifact repository: `[ARTIFACT REPOSITORY]`
+- Repository: `[REPOSITORY]`
 - Canon status: Canon-origin model
 - Provenance: `[PROVENANCE NOTE]`
 
