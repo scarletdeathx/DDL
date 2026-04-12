@@ -8,19 +8,27 @@ For release repositories, start from the provider-neutral templates in
 `templates/profiles/`. Use the matching `LICENSE-*.md` file as the repo's
 `LICENSE` or `LICENSE.md`.
 
+`DDL-D`, `DDL-V`, and `DDL-X` are the public family names. Use them in README
+prose, release notes, and model cards when a short human-readable label is
+helpful. Use `DDL-D-1.2`, `DDL-V-1.2`, and `DDL-X-1.2` in legal notices,
+version-specific references, and machine-readable declarations.
+
+Repository commits do not require a DDL version change. Only substantive
+changes to the legal/spec text should produce a new DDL version.
+
 ## Which Identifier Should I Use?
 
 | Release posture | Identifier |
 | --- | --- |
-| Protected canon source dataset or source archive | `DDL-D-1.2` |
-| Canon-origin model with permitted commercial fine-tunes | `DDL-V-1.2` |
-| Non-Canon community model or downstream release | `DDL-X-1.2` |
-| Canon-origin release intentionally gifted into X lineage | `DDL-VX-1.2` |
-| Dataset derived from DDL-X models, outputs, or synthetic data | `DDL-XD-1.2` |
-| Mixed V/X/D bundle prepared for public release | `DDL-XVD-1.2` |
-| Internal protected canon dataset plus canon model bundle | `DDL-DV-1.2` or `DDL-VD-1.2` |
-| Hosted callable or inference-only protected artifact | `DDL-DX-1.2` |
-| Community branch lineage from a V or VX source | `DDL-XV-1.2` |
+| Protected canon source dataset or source archive | `DDL-D` |
+| Canon-origin model with permitted commercial fine-tunes | `DDL-V` |
+| Non-Canon community model or downstream release | `DDL-X` |
+| Canon-origin release intentionally gifted into X lineage | `DDL-VX` |
+| Dataset derived from DDL-X models, outputs, or synthetic data | `DDL-XD` |
+| Mixed V/X/D bundle prepared for public release | `DDL-XVD` |
+| Internal protected canon dataset plus canon model bundle | `DDL-DV` or `DDL-VD` |
+| Hosted callable or inference-only protected artifact | `DDL-DX` |
+| Community branch lineage from a V or VX source | `DDL-XV` |
 
 ## Minimal Notice
 
@@ -50,9 +58,10 @@ Canon-Status: Non-Canon
 ```markdown
 ## License
 
-This model is released under `DDL-V-1.2`.
+This model is released under `DDL-V`.
 
 - SPDX-compatible identifier: `LicenseRef-DDL-V-1.2`
+- Formal legal version: `DDL-V-1.2`
 - Canon status: Canon-origin model; outputs and fine-tunes are Non-Canon
   unless explicitly elevated by the License Holder.
 - Canon Dataset content is not licensed for copying, reconstruction,
@@ -65,9 +74,10 @@ This model is released under `DDL-V-1.2`.
 ```markdown
 ## License
 
-This dataset is released under `DDL-D-1.2`.
+This dataset is released under `DDL-D`.
 
 - SPDX-compatible identifier: `LicenseRef-DDL-D-1.2`
+- Formal legal version: `DDL-D-1.2`
 - Canon status: Canon Dataset / protected source material
 - Personal access only. No copying, redistribution, training, fine-tuning,
   extraction, reconstruction, incorporation, or Commercial Use without
@@ -80,7 +90,7 @@ This dataset is released under `DDL-D-1.2`.
 ```markdown
 ## License
 
-This dataset is released under `DDL-XD-1.2`.
+This dataset is released under `DDL-XD`.
 
 - SPDX-compatible identifier: `LicenseRef-DDL-XD-1.2`
 - Operative license: `DDL-X-1.2`
@@ -105,3 +115,10 @@ This dataset is released under `DDL-XD-1.2`.
   redistribution.
 - `DDL-XV-1.2` may name community branch continuity but cannot claim official
   canon status.
+
+## Prose Vs Legal Text
+
+- README or model card prose may say `Released under DDL-V`.
+- Dataset README prose may say `Released under DDL-D`.
+- Legal notice blocks should still use the versioned form, such as
+  `DDL-Identifier: DDL-V-1.2`.

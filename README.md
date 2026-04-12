@@ -12,9 +12,9 @@ DDL has three operative license families:
 
 | Identifier | Use for | Canon posture |
 | --- | --- | --- |
-| `DDL-D-1.2` | Protected source material and Canon Datasets | Closed, personal access only |
-| `DDL-V-1.2` | Canon-origin model releases | Derivatives are Non-Canon unless elevated |
-| `DDL-X-1.2` | Community releases and downstream lineage | Non-Canon, inheriting DDL-X |
+| `DDL-D` | Protected source material and Canon Datasets | Closed, personal access only |
+| `DDL-V` | Canon-origin model releases | Derivatives are Non-Canon unless elevated |
+| `DDL-X` | Community releases and downstream lineage | Non-Canon, inheriting DDL-X |
 
 Canonical texts:
 
@@ -22,6 +22,20 @@ Canonical texts:
 - [DDL-D-1.2](licenses/DDL-D-1.2.md)
 - [DDL-V-1.2](licenses/DDL-V-1.2.md)
 - [DDL-X-1.2](licenses/DDL-X-1.2.md)
+
+## Naming And Versioning
+
+`DDL-D`, `DDL-V`, and `DDL-X` are the human-readable names of the DDL license
+families. Use them in prose, badges, release descriptions, and other public-
+facing contexts.
+
+`DDL-D-1.2`, `DDL-V-1.2`, and `DDL-X-1.2` identify the exact published legal
+texts. Use the versioned identifiers in `LICENSE`, formal legal notices,
+SPDX-style declarations, and other places where the legal text must be exact.
+
+Repository commits do not change the DDL version number. Only deliberate
+changes to the operative license text, definitions, permissions, restrictions,
+inheritance rules, or profile meanings should produce a new DDL version.
 
 ## Profiles
 
@@ -42,13 +56,13 @@ For release repositories, use the ready-to-copy templates in
 
 Typical choices:
 
-- Use `DDL-D-1.2` for protected source datasets or canon source material that
+- Use `DDL-D` for protected source datasets or canon source material that
   can be personally viewed but not trained on or redistributed.
-- Use `DDL-V-1.2` for an official canon-origin model where commercial
+- Use `DDL-V` for an official canon-origin model where commercial
   fine-tunes are allowed but downstream work is Non-Canon.
-- Use `DDL-X-1.2` for community releases, downstream models, and datasets
+- Use `DDL-X` for community releases, downstream models, and datasets
   derived from DDL-X models or outputs.
-- Use `DDL-VX-1.2` when a canon-origin release is intentionally gifted into
+- Use `DDL-VX` when a canon-origin release is intentionally gifted into
   DDL-X community lineage.
 
 ## Repository License
