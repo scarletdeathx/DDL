@@ -1,13 +1,14 @@
 # License
 
-`[ARTIFACT NAME]` is released under the `DDL-XD-1.2` profile.
+`[ARTIFACT NAME]` is released under the `DDL-XD` profile. The formal legal version for this release is `DDL-XD-1.2`.
 
 Copyright (c) `[YEAR]` `[LICENSE HOLDER]`.
 
-DDL-XD-1.2 is for an X-lineage dataset or dataset/model bundle.
+`DDL-XD` is the public profile name for an X-lineage dataset or dataset/model bundle.
 
 ## DDL Notice
 
+- Public profile name: `DDL-XD`
 - DDL identifier: `DDL-XD-1.2`
 - SPDX-compatible identifier: `LicenseRef-DDL-XD-1.2`
 - Operative downstream license: `DDL-X-1.2`
@@ -23,8 +24,9 @@ This artifact is derived from DDL-X models, DDL-X outputs, DDL-X synthetic
 data, or other DDL-X community material.
 
 Use, modification, redistribution, derivative model creation, derivative
-dataset creation, and Commercial Use are permitted under `DDL-X-1.2`.
-Distributed derivative models and derivative datasets inherit `DDL-X-1.2`.
+dataset creation, and Commercial Use are permitted under `DDL-X`.
+Distributed derivative models and derivative datasets inherit `DDL-X-1.2` as
+the operative legal text.
 
 ## Applicable Texts
 

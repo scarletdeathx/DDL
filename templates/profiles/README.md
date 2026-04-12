@@ -6,20 +6,25 @@ bundle, and hosted-artifact repositories.
 Use the matching `LICENSE-*.md` file as the release repository's `LICENSE` or
 `LICENSE.md`, then fill in the placeholder fields.
 
+These template files stay versioned because they are meant to become formal
+legal notices. In prose, badges, release notes, model cards, and dataset
+cards, shorthand names such as `DDL-D`, `DDL-V`, `DDL-X`, and `DDL-VX` are
+fine.
+
 ## Template Index
 
-| DDL identifier | Template |
-| --- | --- |
-| `DDL-D-1.2` | `LICENSE-DDL-D-1.2.md` |
-| `DDL-V-1.2` | `LICENSE-DDL-V-1.2.md` |
-| `DDL-X-1.2` | `LICENSE-DDL-X-1.2.md` |
-| `DDL-VX-1.2` | `LICENSE-DDL-VX-1.2.md` |
-| `DDL-XD-1.2` | `LICENSE-DDL-XD-1.2.md` |
-| `DDL-XVD-1.2` | `LICENSE-DDL-XVD-1.2.md` |
-| `DDL-DV-1.2` | `LICENSE-DDL-DV-1.2.md` |
-| `DDL-VD-1.2` | `LICENSE-DDL-VD-1.2.md` |
-| `DDL-DX-1.2` | `LICENSE-DDL-DX-1.2.md` |
-| `DDL-XV-1.2` | `LICENSE-DDL-XV-1.2.md` |
+| Public name | Formal legal identifier | Template |
+| --- | --- | --- |
+| `DDL-D` | `DDL-D-1.2` | `LICENSE-DDL-D-1.2.md` |
+| `DDL-V` | `DDL-V-1.2` | `LICENSE-DDL-V-1.2.md` |
+| `DDL-X` | `DDL-X-1.2` | `LICENSE-DDL-X-1.2.md` |
+| `DDL-VX` | `DDL-VX-1.2` | `LICENSE-DDL-VX-1.2.md` |
+| `DDL-XD` | `DDL-XD-1.2` | `LICENSE-DDL-XD-1.2.md` |
+| `DDL-XVD` | `DDL-XVD-1.2` | `LICENSE-DDL-XVD-1.2.md` |
+| `DDL-DV` | `DDL-DV-1.2` | `LICENSE-DDL-DV-1.2.md` |
+| `DDL-VD` | `DDL-VD-1.2` | `LICENSE-DDL-VD-1.2.md` |
+| `DDL-DX` | `DDL-DX-1.2` | `LICENSE-DDL-DX-1.2.md` |
+| `DDL-XV` | `DDL-XV-1.2` | `LICENSE-DDL-XV-1.2.md` |
 
 ## Fields To Fill
 

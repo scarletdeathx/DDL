@@ -1,13 +1,14 @@
 # License
 
-`[ARTIFACT NAME]` is marked with the `DDL-DX-1.2` profile.
+`[ARTIFACT NAME]` is marked with the `DDL-DX` profile. The formal legal version for this release is `DDL-DX-1.2`.
 
 Copyright (c) `[YEAR]` `[LICENSE HOLDER]`.
 
-DDL-DX-1.2 is for a hosted callable or inference-only protected artifact.
+`DDL-DX` is the public profile name for a hosted callable or inference-only protected artifact.
 
 ## DDL Notice
 
+- Public profile name: `DDL-DX`
 - DDL identifier: `DDL-DX-1.2`
 - SPDX-compatible identifier: `LicenseRef-DDL-DX-1.2`
 - Operative restriction: callable / inference-only access

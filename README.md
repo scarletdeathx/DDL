@@ -58,12 +58,30 @@ Typical choices:
 
 - Use `DDL-D` for protected source datasets or canon source material that
   can be personally viewed but not trained on or redistributed.
-- Use `DDL-V` for an official canon-origin model where commercial
-  fine-tunes are allowed but downstream work is Non-Canon.
+- Use `DDL-V` for an official canon-origin upstream model where commercial
+  fine-tunes and downstream releases are allowed, but downstream work remains
+  Non-Canon unless elevated.
 - Use `DDL-X` for community releases, downstream models, and datasets
   derived from DDL-X models or outputs.
 - Use `DDL-VX` when a canon-origin release is intentionally gifted into
   DDL-X community lineage.
+
+## Reading DDL-V
+
+`DDL-V` is the permissive canon-origin lane in the DDL family. It is meant for
+an official-origin model release that others may use, fine-tune, commercialize,
+and build on without receiving official affiliation or canon status.
+
+Under `DDL-V`, downstream outputs, derivative models, derivative datasets, and
+output collections are Non-Canon by default unless the License Holder
+explicitly elevates them. `DDL-V` does not automatically convert downstream
+material into `DDL-D`, and it does not automatically force `DDL-X`
+inheritance.
+
+Instead, `DDL-V` preserves provenance and canon-boundary restrictions while
+leaving downstream creators free to choose how to release the rights they
+actually hold in their own downstream material, subject to applicable law and
+the Canon Dataset protections in `DDL-V-1.2`.
 
 ## Repository License
 

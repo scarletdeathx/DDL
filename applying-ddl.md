@@ -64,6 +64,8 @@ This model is released under `DDL-V`.
 - Formal legal version: `DDL-V-1.2`
 - Canon status: Canon-origin model; outputs and fine-tunes are Non-Canon
   unless explicitly elevated by the License Holder.
+- `DDL-V` does not automatically place downstream outputs or output
+  collections under `DDL-D` or `DDL-X`.
 - Canon Dataset content is not licensed for copying, reconstruction,
   training, fine-tuning, retrieval, or redistribution.
 - License texts: `licenses/DDL-Core-1.2.md` and `licenses/DDL-V-1.2.md`
@@ -122,3 +124,15 @@ This dataset is released under `DDL-XD`.
 - Dataset README prose may say `Released under DDL-D`.
 - Legal notice blocks should still use the versioned form, such as
   `DDL-Identifier: DDL-V-1.2`.
+
+## DDL-V Downstream Guidance
+
+- `DDL-V` is the permissive canon-origin upstream lane.
+- Downstream outputs, derivative models, derivative datasets, and output
+  collections are Non-Canon by default unless explicitly elevated by the
+  License Holder.
+- `DDL-V` does not by itself assign downstream material to `DDL-D` or
+  `DDL-X`.
+- A downstream releaser may choose the license for rights they actually hold
+  in their own downstream material, subject to applicable law and the Canon
+  Dataset protections in `DDL-V-1.2`.

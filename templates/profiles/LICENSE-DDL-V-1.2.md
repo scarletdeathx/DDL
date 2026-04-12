@@ -1,13 +1,14 @@
 # License
 
-`[ARTIFACT NAME]` is released under `DDL-V-1.2`.
+`[ARTIFACT NAME]` is released under `DDL-V`. The formal legal version for this release is `DDL-V-1.2`.
 
 Copyright (c) `[YEAR]` `[LICENSE HOLDER]`.
 
-DDL-V-1.2 is for canon-origin model releases.
+`DDL-V` is the public family name for canon-origin model releases.
 
 ## DDL Notice
 
+- Public family name: `DDL-V`
 - DDL identifier: `DDL-V-1.2`
 - SPDX-compatible identifier: `LicenseRef-DDL-V-1.2`
 - License holder: `[LICENSE HOLDER]`
@@ -18,7 +19,7 @@ DDL-V-1.2 is for canon-origin model releases.
 ## Summary
 
 Inference, fine-tuning, derivative model distribution, and Commercial Use are
-permitted under `DDL-V-1.2`.
+permitted under `DDL-V`.
 
 Outputs, fine-tunes, derivative models, derivative datasets, products,
 services, and releases are Non-Canon unless explicitly elevated by the License

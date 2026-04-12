@@ -1,13 +1,14 @@
 # License
 
-`[ARTIFACT NAME]` is marked with the `DDL-DV-1.2` profile.
+`[ARTIFACT NAME]` is marked with the `DDL-DV` profile. The formal legal version for this release is `DDL-DV-1.2`.
 
 Copyright (c) `[YEAR]` `[LICENSE HOLDER]`.
 
-DDL-DV-1.2 is for an internal protected Canon Dataset plus Canon Model bundle.
+`DDL-DV` is the public profile name for an internal protected Canon Dataset plus Canon Model bundle.
 
 ## DDL Notice
 
+- Public profile name: `DDL-DV`
 - DDL identifier: `DDL-DV-1.2`
 - SPDX-compatible identifier: `LicenseRef-DDL-DV-1.2`
 - Operative restriction: internal protected bundle

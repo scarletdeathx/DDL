@@ -1,14 +1,15 @@
 # License
 
-`[ARTIFACT NAME]` is released under the `DDL-XVD-1.2` profile.
+`[ARTIFACT NAME]` is released under the `DDL-XVD` profile. The formal legal version for this release is `DDL-XVD-1.2`.
 
 Copyright (c) `[YEAR]` `[LICENSE HOLDER]`.
 
-DDL-XVD-1.2 is for a mixed canon-origin and community bundle prepared for
+`DDL-XVD` is the public profile name for a mixed canon-origin and community bundle prepared for
 public release.
 
 ## DDL Notice
 
+- Public profile name: `DDL-XVD`
 - DDL identifier: `DDL-XVD-1.2`
 - SPDX-compatible identifier: `LicenseRef-DDL-XVD-1.2`
 - Operative public license: `DDL-X-1.2`
@@ -20,16 +21,18 @@ public release.
 
 ## Summary
 
-Public distribution follows `DDL-X-1.2`. Use, modification, redistribution,
-derivative model creation, derivative dataset creation, and Commercial Use are
-permitted for the public X-lineage artifact.
+Public distribution follows `DDL-X`. The operative legal text is
+`DDL-X-1.2`. Use, modification, redistribution, derivative model creation,
+derivative dataset creation, and Commercial Use are permitted for the public
+X-lineage artifact.
 
 Protected D source material must be excluded from the public release or
 separately licensed under `DDL-D-1.2`. No Canon Dataset content is licensed for
 copying, reconstruction, extraction, training, fine-tuning, retrieval, or
 redistribution unless separately permitted in writing.
 
-Distributed derivative models and derivative datasets inherit `DDL-X-1.2`.
+Distributed derivative models and derivative datasets inherit `DDL-X-1.2` as
+the operative legal text.
 
 ## Applicable Texts
 

@@ -1,13 +1,14 @@
 # License
 
-`[ARTIFACT NAME]` is marked with the `DDL-VD-1.2` profile.
+`[ARTIFACT NAME]` is marked with the `DDL-VD` profile. The formal legal version for this release is `DDL-VD-1.2`.
 
 Copyright (c) `[YEAR]` `[LICENSE HOLDER]`.
 
-DDL-VD-1.2 is the model-first editorial form of `DDL-DV-1.2`.
+`DDL-VD` is the public profile name for the model-first editorial form of `DDL-DV-1.2`.
 
 ## DDL Notice
 
+- Public profile name: `DDL-VD`
 - DDL identifier: `DDL-VD-1.2`
 - SPDX-compatible identifier: `LicenseRef-DDL-VD-1.2`
 - Operative restriction: internal protected bundle

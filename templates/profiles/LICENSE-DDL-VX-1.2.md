@@ -1,13 +1,14 @@
 # License
 
-`[ARTIFACT NAME]` is released under the `DDL-VX-1.2` profile.
+`[ARTIFACT NAME]` is released under the `DDL-VX` profile. The formal legal version for this release is `DDL-VX-1.2`.
 
 Copyright (c) `[YEAR]` `[LICENSE HOLDER]`.
 
-DDL-VX-1.2 is a canon-origin gift into DDL-X community lineage.
+`DDL-VX` is the public profile name for a canon-origin gift into DDL-X community lineage.
 
 ## DDL Notice
 
+- Public profile name: `DDL-VX`
 - DDL identifier: `DDL-VX-1.2`
 - SPDX-compatible identifier: `LicenseRef-DDL-VX-1.2`
 - Operative downstream license: `DDL-X-1.2`

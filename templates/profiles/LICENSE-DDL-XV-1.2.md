@@ -1,13 +1,14 @@
 # License
 
-`[ARTIFACT NAME]` is released under the `DDL-XV-1.2` profile.
+`[ARTIFACT NAME]` is released under the `DDL-XV` profile. The formal legal version for this release is `DDL-XV-1.2`.
 
 Copyright (c) `[YEAR]` `[LICENSE HOLDER]`.
 
-DDL-XV-1.2 is for community branch lineage from a DDL-V or DDL-VX source.
+`DDL-XV` is the public profile name for community branch lineage from a DDL-V or DDL-VX source.
 
 ## DDL Notice
 
+- Public profile name: `DDL-XV`
 - DDL identifier: `DDL-XV-1.2`
 - SPDX-compatible identifier: `LicenseRef-DDL-XV-1.2`
 - Operative downstream license: `DDL-X-1.2`
@@ -20,13 +21,14 @@ DDL-XV-1.2 is for community branch lineage from a DDL-V or DDL-VX source.
 ## Summary
 
 Use, modification, redistribution, derivative model creation, derivative
-dataset creation, and Commercial Use are permitted under `DDL-X-1.2`.
+dataset creation, and Commercial Use are permitted under `DDL-X`.
 
 This artifact may truthfully name branch continuity, source lineage, or
 community continuity. It must not claim official canon status unless explicitly
 elevated by the License Holder.
 
-Distributed derivative models and derivative datasets inherit `DDL-X-1.2`.
+Distributed derivative models and derivative datasets inherit `DDL-X-1.2` as
+the operative legal text.
 
 ## Applicable Texts
 

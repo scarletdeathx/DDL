@@ -1,13 +1,14 @@
 # License
 
-`[ARTIFACT NAME]` is released under `DDL-X-1.2`.
+`[ARTIFACT NAME]` is released under `DDL-X`. The formal legal version for this release is `DDL-X-1.2`.
 
 Copyright (c) `[YEAR]` `[LICENSE HOLDER]`.
 
-DDL-X-1.2 is for Non-Canon community releases and downstream lineage.
+`DDL-X` is the public family name for Non-Canon community releases and downstream lineage.
 
 ## DDL Notice
 
+- Public family name: `DDL-X`
 - DDL identifier: `DDL-X-1.2`
 - SPDX-compatible identifier: `LicenseRef-DDL-X-1.2`
 - License holder: `[LICENSE HOLDER]`
@@ -18,7 +19,7 @@ DDL-X-1.2 is for Non-Canon community releases and downstream lineage.
 ## Summary
 
 Use, modification, redistribution, derivative model creation, derivative
-dataset creation, and Commercial Use are permitted under `DDL-X-1.2`.
+dataset creation, and Commercial Use are permitted under `DDL-X`.
 
 Distributed derivative models and derivative datasets inherit `DDL-X-1.2`.
 Downstream artifacts must not claim official canon status unless explicitly

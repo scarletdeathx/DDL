@@ -1,13 +1,14 @@
 # License
 
-`[ARTIFACT NAME]` is released under `DDL-D-1.2`.
+`[ARTIFACT NAME]` is released under `DDL-D`. The formal legal version for this release is `DDL-D-1.2`.
 
 Copyright (c) `[YEAR]` `[LICENSE HOLDER]`.
 
-DDL-D-1.2 is for protected source material and Canon Datasets.
+`DDL-D` is the public family name for protected source material and Canon Datasets.
 
 ## DDL Notice
 
+- Public family name: `DDL-D`
 - DDL identifier: `DDL-D-1.2`
 - SPDX-compatible identifier: `LicenseRef-DDL-D-1.2`
 - License holder: `[LICENSE HOLDER]`
