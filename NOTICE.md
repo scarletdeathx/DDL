@@ -18,5 +18,5 @@ version as the official DDL 1.2 text. Modified versions should use a different
 name and should not imply endorsement by Scarlet Death or any DDL License
 Holder.
 
-DDL is a draft framework. It is not legal advice, and use of DDL does not
+DDL is a hyperfiction licensing framework. It is not legal advice, and use of DDL does not
 create an attorney-client relationship.
