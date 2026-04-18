@@ -39,9 +39,15 @@ inheritance rules, or profile meanings should produce a new DDL version.
 
 ## Profiles
 
-Profiles such as `DDL-VX-1.2` are registered release postures. They are not
-automatic letter algebra. Each profile expands to an operative DDL license and
-states how provenance, canon status, and inheritance should be read.
+DDL 1.2 keeps profiles narrow. They are not automatic letter algebra. Each
+registered profile expands to an operative DDL license and states how
+provenance, canon status, and inheritance should be read.
+
+The currently registered profiles are:
+
+- `DDL-VX-1.2`, for canon-origin releases intentionally gifted into DDL-X
+  community lineage.
+- `DDL-DX-1.2`, for callable or inference-only protected artifacts.
 
 Use [identifiers.md](identifiers.md) as the normative registry for all DDL
 identifiers and profiles.
@@ -65,6 +71,8 @@ Typical choices:
   derived from DDL-X models or outputs.
 - Use `DDL-VX` when a canon-origin release is intentionally gifted into
   DDL-X community lineage.
+- Use `DDL-DX` when you want protected callable or inference-only access
+  without redistributing the protected artifact itself.
 
 ## Reading DDL-V
 

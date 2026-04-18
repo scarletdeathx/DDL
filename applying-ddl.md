@@ -24,11 +24,11 @@ changes to the legal/spec text should produce a new DDL version.
 | Canon-origin model with permitted commercial fine-tunes | `DDL-V` |
 | Non-Canon community model or downstream release | `DDL-X` |
 | Canon-origin release intentionally gifted into X lineage | `DDL-VX` |
-| Dataset derived from DDL-X models, outputs, or synthetic data | `DDL-XD` |
-| Mixed V/X/D bundle prepared for public release | `DDL-XVD` |
-| Internal protected canon dataset plus canon model bundle | `DDL-DV` or `DDL-VD` |
 | Hosted callable or inference-only protected artifact | `DDL-DX` |
-| Community branch lineage from a V or VX source | `DDL-XV` |
+
+For DDL 1.2, use `DDL-X` directly for X-lineage datasets, community branches,
+and other downstream public releases. Split mixed public releases into
+separate D/V/X artifacts instead of using retired combined profile labels.
 
 ## Minimal Notice
 
@@ -92,15 +92,14 @@ This dataset is released under `DDL-D`.
 ```markdown
 ## License
 
-This dataset is released under `DDL-XD`.
+This dataset is released under `DDL-X`.
 
-- SPDX-compatible identifier: `LicenseRef-DDL-XD-1.2`
-- Operative license: `DDL-X-1.2`
+- SPDX-compatible identifier: `LicenseRef-DDL-X-1.2`
+- Formal legal version: `DDL-X-1.2`
 - Canon status: Non-Canon community material
 - This dataset is derived from DDL-X models, outputs, or synthetic data and
   inherits DDL-X lineage.
-- License texts: `identifiers.md`, `licenses/DDL-Core-1.2.md`, and
-  `licenses/DDL-X-1.2.md`
+- License texts: `licenses/DDL-Core-1.2.md` and `licenses/DDL-X-1.2.md`
 ```
 
 ## Scenario Checks
@@ -112,11 +111,8 @@ This dataset is released under `DDL-XD`.
   lineage.
 - A `DDL-VX-1.2` release can be used commercially while preserving
   canon-origin provenance and DDL-X inheritance.
-- `DDL-DV-1.2` and `DDL-VD-1.2` are internal-only protected bundles.
 - `DDL-DX-1.2` permits hosted inference but not copying, extraction, or
   redistribution.
-- `DDL-XV-1.2` may name community branch continuity but cannot claim official
-  canon status.
 
 ## Prose Vs Legal Text
 

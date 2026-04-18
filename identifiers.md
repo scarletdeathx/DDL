@@ -34,12 +34,11 @@ as a license identifier for released artifacts.
 | Profile | SPDX-compatible identifier | Expansion |
 | --- | --- | --- |
 | `DDL-VX-1.2` | `LicenseRef-DDL-VX-1.2` | Canon-origin gift into DDL-X lineage. Downstream artifacts inherit `DDL-X-1.2`, preserve provenance, and remain Non-Canon unless elevated. |
-| `DDL-XD-1.2` | `LicenseRef-DDL-XD-1.2` | X-lineage dataset or dataset/model bundle. Datasets derived from DDL-X models or DDL-X outputs inherit `DDL-X-1.2`. |
-| `DDL-XVD-1.2` | `LicenseRef-DDL-XVD-1.2` | Mixed canon-origin and community bundle. Public distribution follows `DDL-X-1.2`; protected D source must be excluded or separately licensed under `DDL-D-1.2`. |
-| `DDL-DV-1.2` | `LicenseRef-DDL-DV-1.2` | Internal protected Canon Dataset plus Canon Model bundle. No public redistribution. |
-| `DDL-VD-1.2` | `LicenseRef-DDL-VD-1.2` | Same as `DDL-DV-1.2`; ordering indicates model-first editorial emphasis. |
 | `DDL-DX-1.2` | `LicenseRef-DDL-DX-1.2` | Callable or inference-only protected artifact. No copying, redistribution, modification, extraction, training, or dataset reconstruction. |
-| `DDL-XV-1.2` | `LicenseRef-DDL-XV-1.2` | Community branch lineage from a V or VX source. `DDL-X-1.2` applies; branch continuity may be named, but official canon status is not granted. |
+
+Most releases should use the three operative license families directly. For
+DDL 1.2, only `DDL-VX-1.2` and `DDL-DX-1.2` remain as registered special-case
+profiles.
 
 ## Identifier Rules
 
