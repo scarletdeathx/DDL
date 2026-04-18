@@ -3,6 +3,11 @@
 The repository prose and tooling are licensed under the MIT License in
 `LICENSE` unless a file states otherwise.
 
+The DDL framework and documentation are licensed under MIT.
+
+Licenses generated or described by this framework are NOT MIT-licensed
+and may impose additional terms depending on their configuration.
+
 The DDL 1.2 license texts, identifier registry, and profile names are published
 as license artifacts. You may copy and distribute unmodified copies of those
 texts, identifiers, and notices for the purpose of applying DDL to artifacts,
@@ -13,5 +18,5 @@ version as the official DDL 1.2 text. Modified versions should use a different
 name and should not imply endorsement by Scarlet Death or any DDL License
 Holder.
 
-DDL is a draft framework. It is not legal advice, and use of DDL does not
+DDL is a hyperfiction licensing framework. It is not legal advice, and use of DDL does not
 create an attorney-client relationship.
