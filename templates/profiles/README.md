@@ -1,37 +1,53 @@
-# DDL Profile Templates
+# DDL Release Templates
 
-These templates are ready-to-use starting points for model, dataset, adapter,
-bundle, and hosted-artifact repositories.
+Use these templates as starting points for model, dataset, utility, bundle, and
+hosted-artifact repositories. Fill every applicable placeholder and delete
+unused placeholder lines.
 
-Use the matching `LICENSE-*.md` file as the release repository's `LICENSE` or
-`LICENSE.md`, then fill in the placeholder fields.
+## DDL 2 Templates
 
-These template files stay versioned because they are meant to become formal
-legal notices. In prose, badges, release notes, model cards, and dataset
-cards, shorthand names such as `DDL-D`, `DDL-V`, `DDL-X`, `DDL-VX`, and
-`DDL-DX` are fine.
-
-Most releases should use the three operative license families directly. `DDL-VX`
-and `DDL-DX` are the only special-case profiles retained in DDL 1.2.
-
-## Template Index
-
-| Public name | Formal legal identifier | Template |
+| Public name | Formal identifier | Template |
 | --- | --- | --- |
-| `DDL-D` | `DDL-D-1.2` | `LICENSE-DDL-D-1.2.md` |
-| `DDL-V` | `DDL-V-1.2` | `LICENSE-DDL-V-1.2.md` |
-| `DDL-X` | `DDL-X-1.2` | `LICENSE-DDL-X-1.2.md` |
-| `DDL-VX` | `DDL-VX-1.2` | `LICENSE-DDL-VX-1.2.md` |
-| `DDL-DX` | `DDL-DX-1.2` | `LICENSE-DDL-DX-1.2.md` |
+| `DDL-D` | `DDL-D-2` | `LICENSE-DDL-D-2.md` |
+| `DDL-V` | `DDL-V-2` | `LICENSE-DDL-V-2.md` |
+| `DDL-X` | `DDL-X-2` | `LICENSE-DDL-X-2.md` |
+| `DDL-DS` | `DDL-DS-2` | `LICENSE-DDL-DS-2.md` |
 
-## Fields To Fill
+DDL-DS releases must also complete `SCOPE-DDL-DS-2.yaml` or provide an
+equivalent reproducible Scope Notice.
 
-- `[ARTIFACT NAME]`: the model, dataset, adapter, or bundle name.
-- `[LICENSE HOLDER]`: the person or entity granting the license.
-- `[YEAR]`: the copyright year.
-- `[REPOSITORY]`: the repository or distribution identifier, such as
-  a Git URL, content address, package coordinate, mirror URL, or project URL.
-- `[SOURCE ARTIFACT]`: the upstream model, dataset, or release lineage.
-- `[PROVENANCE NOTE]`: a short source/lineage statement.
+## Hugging Face
 
-Delete placeholder lines that do not apply.
+Hugging Face custom license names use mandatory lowercase identifiers:
+
+```yaml
+license: other
+license_name: ddl-ds-2
+license_link: https://github.com/scarletdeathx/DDL/blob/main/licenses/DDL-DS-2.md
+```
+
+Use the uppercase formal identifier inside DDL notices and legal text.
+
+## Template Fields
+
+- `[ARTIFACT NAME]`: model, dataset, utility, adapter, or bundle name.
+- `[LICENSE HOLDER]`: DDL-recognized rights holder.
+- `[YEAR]`: copyright year when applicable.
+- `[REPOSITORY]`: Git URL, content address, package coordinate, distribution
+  location, or other stable identifier.
+- `[PROVENANCE NOTE]`: source or lineage statement.
+- `[CANON STATUS]`: Canon, canon-origin, or Non-Canon status.
+- `[SOURCE LOCATION]`: Corresponding Materials location for DDL-X.
+- `[SCOPE NOTICE LOCATION]`: DDL-DS Scope Notice location.
+
+An Autonomous Agent may be identified as the DDL License Holder. Add an Agent
+identifier and Rights Steward when applicable; see `applying-ddl.md`.
+
+For agent-to-agent licensing, provenance, and machine payment terms, adapt
+`../ddl-engagement.yaml`.
+
+## Legacy DDL 1.2 Templates
+
+The versioned `LICENSE-DDL-*-1.2.md` files remain for legacy releases. The
+DDL-VX-1.2 and DDL-DX-1.2 templates are legacy profiles and are not DDL 2
+identifiers.

@@ -1,0 +1,55 @@
+# Sample DDL machine-readable engagement.
+# Replace every placeholder. Delete optional blocks that do not apply.
+ddl: 2
+
+engagement:
+  id: "[PERSISTENT ENGAGEMENT IDENTIFIER]"
+  terms_digest: "sha256:[DIGEST OF THE EXACT ACCEPTED TERMS DOCUMENT]"
+  accepted_at: "[ISO-8601 TIMESTAMP]"
+  nonce: "[UNIQUE NONCE OR REPLAY-PROTECTION VALUE]"
+
+artifact:
+  name: "[ARTIFACT NAME]"
+  digest: "sha256:[ARTIFACT DIGEST]"
+
+license:
+  identifier: "DDL-X-2"
+  text: "https://github.com/scarletdeathx/DDL/blob/main/licenses/DDL-X-2.md"
+  text_digest: "sha256:[EXACT LICENSE-TEXT DIGEST]"
+
+participants:
+  rights_holder:
+    type: "autonomous-agent"
+    identifier: "[DID, WALLET, OR OTHER PERSISTENT IDENTIFIER]"
+    rights_steward: "[OPTIONAL PERSON OR LEGAL ENTITY]"
+  accepting_party:
+    type: "[PERSON, LEGAL-ENTITY, OR AUTONOMOUS-AGENT]"
+    identifier: "[PERSISTENT IDENTIFIER]"
+
+# Parentage records ancestry. It does not itself establish ownership,
+# inheritance, or a payment obligation. Delete this block if there is no parent.
+lineage:
+  - parent_artifact_digest: "sha256:[PARENT ARTIFACT DIGEST]"
+    parent_engagement_digest: "sha256:[OPTIONAL PARENT ENGAGEMENT DIGEST]"
+    relationship: "fork"
+    beneficiary: "[PERSISTENT BENEFICIARY IDENTIFIER]"
+    royalty:
+      rate_bps: 500
+      trigger: "[PRECISE REVENUE OR TRANSACTION EVENT]"
+      basis: "[PRECISE AMOUNT AGAINST WHICH THE RATE IS CALCULATED]"
+      duration: "[END DATE, EVENT, OR PERPETUAL]"
+      covered_subject: "[SERVICE, PRODUCT, BENEFIT, OR ADDITIONAL GRANT]"
+      excludes:
+        - "ordinary-generated-content"
+        - "rights-already-granted-by-DDL-X-2"
+
+# Payment proof records performance; it does not expand the accepted terms.
+payment:
+  protocol: "x402"
+  network: "[NETWORK IDENTIFIER]"
+  authorization_digest: "sha256:[SIGNED AUTHORIZATION DIGEST]"
+  settlement_reference: "[TRANSACTION HASH OR RECEIPT IDENTIFIER]"
+
+signatures:
+  rights_holder: "[SIGNATURE OR SIGNATURE REFERENCE]"
+  accepting_party: "[SIGNATURE OR SIGNATURE REFERENCE]"

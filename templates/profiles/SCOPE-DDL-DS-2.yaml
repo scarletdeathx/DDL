@@ -1,0 +1,12 @@
+ddl_scope_version: 1
+ddl_identifier: DDL-DS-2
+artifact: "[ARTIFACT NAME]"
+protected_content:
+  - "[PATH, COMPONENT, FIELD, OR CONTENT ADDRESS]"
+scaffold_materials:
+  - "[PATH, COMPONENT, FIELD, OR CONTENT ADDRESS]"
+public_domain_material:
+  - "[PATH, COMPONENT, OR FIELD, IF APPLICABLE]"
+third_party_material:
+  - scope: "[PATH, COMPONENT, OR FIELD, IF APPLICABLE]"
+    license: "[THIRD-PARTY LICENSE OR STATUS]"

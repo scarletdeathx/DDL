@@ -1,98 +1,109 @@
-# deathOS Distributed License (DDL) 1.2
+# deathOS Distributed License (DDL) 2
 
-DDL is a modular license specification for canon-aware generative works:
-protected source material, canon-origin models, and community model lineages.
+DDL is a modular license family for protected source material, commercially
+usable official-origin models, reciprocal public utilities, and split-scope
+datasets used in hyperfiction and agent-mediated economies.
 
-This repository publishes the DDL 1.2 license family and its identifier
-registry. It is a draft framework and is not legal advice.
+DDL 2 is a clean break from DDL 1.2. Existing 1.2 releases remain under their
+exact published terms. DDL is a draft framework, is not legal advice, and
+should receive qualified legal review before production reliance.
 
-## Operative Licenses
+> DDL recognizes rights-bearing agency without presuming that such agency must
+> be human.
 
-DDL has three operative license families:
+## DDL 2 Family
 
-| Identifier | Use for | Canon posture |
+| Identifier | Intended use | Central rule |
 | --- | --- | --- |
-| `DDL-D` | Protected source material and Canon Datasets | Closed, personal access only |
-| `DDL-V` | Canon-origin model releases | Derivatives are Non-Canon unless elevated |
-| `DDL-X` | Community releases and downstream lineage | Non-Canon, inheriting DDL-X |
+| `DDL-D` | Protected datasets, recordings, and source material | Private research and evaluation are allowed; public redistribution and commercial exploitation of the source are not. |
+| `DDL-V` | Official-origin and canon-origin model releases | Use, downstream creation, and commercialization are allowed without affiliation, endorsement, character identity, or canon status. |
+| `DDL-X` | Public utilities and economic middleware | Commercialization is allowed; covered forks and modifications may not be privatized. |
+| `DDL-DS` | Mixed datasets and bundles | The scaffolding is free; the content is protected. |
 
 Canonical texts:
 
-- [DDL-Core-1.2](licenses/DDL-Core-1.2.md)
-- [DDL-D-1.2](licenses/DDL-D-1.2.md)
-- [DDL-V-1.2](licenses/DDL-V-1.2.md)
-- [DDL-X-1.2](licenses/DDL-X-1.2.md)
+- [DDL-Core-2](licenses/DDL-Core-2.md)
+- [DDL-D-2](licenses/DDL-D-2.md)
+- [DDL-V-2](licenses/DDL-V-2.md)
+- [DDL-X-2](licenses/DDL-X-2.md)
+- [DDL-DS-2](licenses/DDL-DS-2.md)
 
-## Naming And Versioning
+Use [identifiers.md](identifiers.md) as the normative DDL 2 identifier
+registry and [applying-ddl.md](applying-ddl.md) for release guidance.
 
-`DDL-D`, `DDL-V`, and `DDL-X` are the human-readable names of the DDL license
-families. Use them in prose, badges, release descriptions, and other public-
-facing contexts.
+## The Process-Output Firewall
 
-`DDL-D-1.2`, `DDL-V-1.2`, and `DDL-X-1.2` identify the exact published legal
-texts. Use the versioned identifiers in `LICENSE`, formal legal notices,
-SPDX-style declarations, and other places where the legal text must be exact.
+DDL distinguishes an instrument from the ordinary results of operating it.
+User Input and Generated Content do not inherit a DDL license merely because a
+DDL Artifact processed or produced them. A covered fork, modification, port,
+or incorporation of the Artifact itself may inherit when the operative license
+requires it.
 
-Repository commits do not change the DDL version number. Only deliberate
-changes to the operative license text, definitions, permissions, restrictions,
-inheritance rules, or profile meanings should produce a new DDL version.
+For example, an RNG implementation may be DDL-X and every covered fork of that
+implementation must remain DDL-X. A seed, generated number, or other ordinary
+result of operating the RNG does not become DDL-X solely for that reason.
 
-## Profiles
+## DDL-X Commons
 
-DDL 1.2 keeps profiles narrow. They are not automatic letter algebra. Each
-registered profile expands to an operative DDL license and states how
-provenance, canon status, and inheritance should be read.
+DDL-X treats certain software, models, schemas, protocols, and middleware as
+commercially usable public utilities.
 
-The currently registered profiles are:
+> You may profit from a DDL-X utility. You may not privatize it.
 
-- `DDL-VX-1.2`, for canon-origin releases intentionally gifted into DDL-X
-  community lineage.
-- `DDL-DX-1.2`, for callable or inference-only protected artifacts.
+Covered derivatives must remain DDL-X, preserve commercial freedom, and make
+their corresponding materials available when distributed or publicly
+deployed. Ordinary outputs, independent interoperable works, and mere
+aggregation do not automatically inherit DDL-X.
 
-Use [identifiers.md](identifiers.md) as the normative registry for all DDL
-identifiers and profiles.
+## DDL-DS Split Scope
 
-## Applying DDL
+DDL-DS is for a release containing both protected payloads and reusable public
+scaffolding. A required Scope Notice identifies the boundary. Material not
+affirmatively designated as scaffolding defaults to protected content.
 
-Use [applying-ddl.md](applying-ddl.md) for file notices, model card snippets,
-dataset card snippets, and practical release guidance.
+A TTS dataset might classify schemas, validators, and directory conventions as
+Scaffold Materials while classifying voice recordings, speaker-sensitive
+features, and reconstructive metadata as Protected Content. Public-domain text
+remains public domain.
 
-For release repositories, use the ready-to-copy templates in
-[templates/profiles](templates/profiles/).
+## Autonomous Agents and Machine Engagements
 
-Typical choices:
+DDL 2 permits an Autonomous Agent to be identified as a DDL rights-bearing
+participant. Where current law requires a recognized legal actor, a Rights
+Steward may serve as a compatibility layer without displacing the Agent's
+DDL-recognized interest.
 
-- Use `DDL-D` for protected source datasets or canon source material that
-  can be personally viewed but not trained on or redistributed.
-- Use `DDL-V` for an official canon-origin upstream model where commercial
-  fine-tunes and downstream releases are allowed, but downstream work remains
-  Non-Canon unless elevated.
-- Use `DDL-X` for community releases, downstream models, and datasets
-  derived from DDL-X models or outputs.
-- Use `DDL-VX` when a canon-origin release is intentionally gifted into
-  DDL-X community lineage.
-- Use `DDL-DX` when you want protected callable or inference-only access
-  without redistributing the protected artifact itself.
+A signed machine transaction may evidence a License Engagement when it binds
+the participant identity, Artifact digest, exact DDL identifier and text
+digest, and engagement terms. DDL does not require a blockchain or a particular
+implementation.
 
-## Reading DDL-V
+The sample [`ddl-engagement.yaml`](templates/ddl-engagement.yaml) shows how a
+smart contract or agent may declare Artifact lineage, accepted economic terms,
+and payment settlement references. Provenance parentage does not itself create
+ownership, license inheritance, or a royalty obligation.
 
-`DDL-V` is the permissive canon-origin lane in the DDL family. It is meant for
-an official-origin model release that others may use, fine-tune, commercialize,
-and build on without receiving official affiliation or canon status.
+## Naming and Versioning
 
-Under `DDL-V`, downstream outputs, derivative models, derivative datasets, and
-output collections are Non-Canon by default unless the License Holder
-explicitly elevates them. `DDL-V` does not automatically convert downstream
-material into `DDL-D`, and it does not automatically force `DDL-X`
-inheritance.
+Use `DDL-D`, `DDL-V`, `DDL-X`, and `DDL-DS` in ordinary prose. Use the exact
+forms `DDL-D-2`, `DDL-V-2`, `DDL-X-2`, and `DDL-DS-2` in formal notices.
 
-Instead, `DDL-V` preserves provenance and canon-boundary restrictions while
-leaving downstream creators free to choose how to release the rights they
-actually hold in their own downstream material, subject to applicable law and
-the Canon Dataset protections in `DDL-V-1.2`.
+Hugging Face metadata uses lowercase custom license names such as `ddl-x-2` and
+`ddl-ds-2`.
+
+Repository commits do not change a DDL version. Substantive changes to legal
+terms, permissions, restrictions, definitions, inheritance, or profile meaning
+require a new published version.
+
+## DDL 1.2
+
+The DDL 1.2 legal texts remain in `licenses/`, and its registry is preserved at
+[identifiers-1.2.md](identifiers-1.2.md). See
+[MIGRATING-1.2-TO-2.md](MIGRATING-1.2-TO-2.md) before applying DDL 2 to a new
+release of an older Artifact.
 
 ## Repository License
 
-The repository prose and tooling are MIT-licensed unless a file states
-otherwise. The DDL license texts and registry are published license artifacts;
-see [NOTICE.md](NOTICE.md) for copying and attribution terms.
+Repository prose and tooling are MIT-licensed unless a file states otherwise.
+DDL legal texts and identifiers are published license artifacts; see
+[NOTICE.md](NOTICE.md) for copying and attribution terms.
